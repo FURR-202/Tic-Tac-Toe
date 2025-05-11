@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/10339/10339556.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="flex-centre">
+        <div id="btn-box" class="flex-centre">
+        <div id="cross" class="optionBtn" onclick="design(cross,circle)"><span><i class="fa-solid fa-xmark"></i></span><span class="points">-</span></div>
+        <div id="circle" class="optionBtn" onclick="design(circle,cross)"><span><i class="fa-regular fa-circle"></i></span><span class="points">-</span></div>
+        </div>
+        <div id="container" class="flex-centre">
+            <span  class="line"></span>
+            <span  class="line horizontal-line"></span>
+            <span  class="line vertical-line"></span>
+            <span  class="line vertical-line line2"></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
