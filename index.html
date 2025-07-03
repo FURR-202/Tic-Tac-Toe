@@ -14,8 +14,8 @@
 <body>
     <main class="flex-centre">
         <div id="btn-box" class="flex-centre">
-        <div id="cross" class="optionBtn" onclick="design(cross,circle)"><span><i class="fa-solid fa-xmark"></i></span><span class="points">-</span></div>
-        <div id="circle" class="optionBtn" onclick="design(circle,cross)"><span><i class="fa-regular fa-circle"></i></span><span class="points">-</span></div>
+        <div id="cross" class="optionBtn" ><span><i class="fa-solid fa-xmark"></i></span><span class="points">-</span></div>
+        <div id="circle" class="optionBtn" ><span><i class="fa-regular fa-circle"></i></span><span class="points">-</span></div>
         </div>
         <div id="container" class="flex-centre">
             <span  class="line"></span>
@@ -23,7 +23,25 @@
             <span  class="line vertical-line"></span>
             <span  class="line vertical-line line2"></span>
         </div>
+        <span id="top-left" class="top left a flex-centre"></span>
+        <span id="top-middle" class="top a flex-centre"></i></span>
+        <span id="top-right" class="top right a flex-centre"></i></span>
+        <span id="middle-left" class="middle left a flex-centre"></i></span>
+        <span id="middle-middle" class="middle a flex-centre"></span>
+        <span id="middle-right" class="middle right a flex-centre"></span>
+        <span id="bottom-left" class="bottom left a flex-centre"></span>
+        <span id="bottom-middle" class="bottom a flex-centre"></span>
+        <span id="bottom-right" class="bottom right a flex-centre"></span>
+         <div class="box" id="win">
+            <h1>You win</h1>
+        </div>
+        <div class="box" id="lose">
+            <h1>You Lost</h1>
+        </div>
+        <div class="box" id="draw">
+            <h1>Draw</h1>
+        </div>
     </main>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
